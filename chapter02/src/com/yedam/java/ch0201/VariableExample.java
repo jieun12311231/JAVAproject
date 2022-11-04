@@ -13,9 +13,9 @@ public class VariableExample {
 			
 		}
 		
-		int result = value1 + value2 + 5;   //변수가 지정되지 않았다는 오류발생
+//		int result = value1 + value2 + 5;   //변수가 지정되지 않았다는 오류발생
 		
-		System.out.println(value1 +","+ value2+","+result);
+//		System.out.println(value1 +","+ value2+","+result);
 		
 		int v1 = 0;
 		if(v1 == 0) {   //{}안의 범위에 따른 변수의 범위 생각할 수있어야함.
@@ -26,9 +26,9 @@ public class VariableExample {
 				int v3= v1+ v2;
 				System.out.println(v1 +"+"+ v2+ "="+ v3);
 			}
-			System.out.println(v1 +"+"+ v2+ "="+ v3);
+//			System.out.println(v1 +"+"+ v2+ "="+ v3);
 		}
-		System.out.println(v1 +"+"+ v2+ "="+ v3);
+//		System.out.println(v1 +"+"+ v2+ "="+ v3);
 		
 	}
 }

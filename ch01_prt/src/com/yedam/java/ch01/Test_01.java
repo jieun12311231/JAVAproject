@@ -105,7 +105,7 @@ public class Test_01 {
 		int value = 485;
 //		//4 + 8 + 5 =17
 		
-		System.out.println((value%10)+((int)value%10)+((int)value/100));
+		System.out.println((value%10)+((value/100)%10)+((int)value/100));
 
 		
 		

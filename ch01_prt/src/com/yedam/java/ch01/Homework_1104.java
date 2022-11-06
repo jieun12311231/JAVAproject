@@ -3,7 +3,7 @@ package com.yedam.java.ch01;
 public class Homework_1104 {
 
 	public static void main(String[] args) {
-		// 문제1) 아래와 같이 각 변수를 초기화하였을 때 각 문제에 맞게 구현하세요.
+		// 문제1) 아래와 같이 각 변수를 초기화하였을 때 각 문제에 맞게 구현하세요..
 		int x = -5;
 		int y = 10;
 		int result;

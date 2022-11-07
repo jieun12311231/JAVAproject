@@ -26,8 +26,8 @@ public class VariableExample {
 		Scanner sc = new Scanner(System.in);
 		//shift +ctrl+ space + o 눌러서 java scnner로 등록해줘야함
 		
-//		String str = sc.nextLine();
-//		System.out.println("입력 :"+str);
+		String str = sc.nextLine();
+		System.out.println("입력 :"+str);
 		//Scanner를 통해 nextLine()을쓰면 입력 가능
 		//nextLine()은 무조건 단독으로만 사용가능
 		//nectInt()등등을 같이 쓰면 오류

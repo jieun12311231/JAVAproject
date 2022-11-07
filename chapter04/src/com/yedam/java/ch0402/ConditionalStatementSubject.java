@@ -82,7 +82,7 @@ public class ConditionalStatementSubject {
 //		}
 
 		// 문제5) 161 3번  //방정식의 연장선으로 생각하면됨.
-		//내가 반복해야하는게 무었인지 잘 생각해보기 >> 반복하고자 하는것을 while문 안에 쓰기★★★★★★★★★★
+		//내가 반복해야하는게 무엇인지 잘 생각해보기 >> 반복하고자 하는것을 while문 안에 쓰기★★★★★★★★★★
 		// while문과 Math.random()이용해서
 		// 두개의 주사위를 던졌을때 1~6(숫자1, 슷자2)로 출력하고
 		// 숫자의 합이 5일 경우 종료, 아닐경우 계속 던짐
@@ -103,17 +103,17 @@ public class ConditionalStatementSubject {
 		
 		
 		//방법2)
-		int total1 = 0;  //누적되는 횟수를 담아야하기때문에 while문 밖에 선언이 됨.
-		while(true) {
-			int num3 = (int)(Math.random()*6)+1;  //반복할때마다 누적될 필요가 없기떄문에 안에 바로 선언하면 됨,
-			int num4 = (int)(Math.random()*6)+1;
-			total1++;
-			System.out.printf("(%d,%d)\n",num3,num4);
-			if(num3+num4 ==5) {
-				break;
-			}
-		}
-		System.out.println("주사위를 던진 횟수는 총 "+total1+"번입니다." );
+//		int total1 = 0;  //누적되는 횟수를 담아야하기때문에 while문 밖에 선언이 됨.
+//		while(true) {
+//			int num3 = (int)(Math.random()*6)+1;  //반복할때마다 누적될 필요가 없기떄문에 안에 바로 선언하면 됨,
+//			int num4 = (int)(Math.random()*6)+1;
+//			total1++;
+//			System.out.printf("(%d,%d)\n",num3,num4);
+//			if(num3+num4 ==5) {
+//				break;
+//			}
+//		}
+//		System.out.println("주사위를 던진 횟수는 총 "+total1+"번입니다." );
 		
 		
 

@@ -164,10 +164,10 @@ public class OperatorExample {
 		//정수와 실수는 상관없음.
 		System.out.println("float VS float : "+ (v5 == (float)v6));
 		//비교할때는 동일한 타입으로 변환해서 비교하는 것이 좋음
-		//사람이 볼떄는 같은 값이라도 컴퓨터는 다른게 인지.
-		
+		//사람이 볼때는 같은 값이라도 컴퓨터는 다른게 인지.
+		System.out.println("----논리연산자----");
 /////////논리 연산자
-		int charCode ='A';  //char은 int보다 크기떄문에 가능한 수식,'A'는 숫자에 맞춰서 65로 인식이 됨.
+		int charCode ='A';  //char은 int보다 크기때문에 가능한 수식,'A'는 숫자에 맞춰서 65로 인식이 됨.
 		System.out.println(charCode);
 		
 		//유니코드 중 65보다 크거나 같고 90보다 작거나 같으면 대문자 
@@ -195,6 +195,7 @@ public class OperatorExample {
 			System.out.println("2또는 3의 배수입니다.");
 		}//앞이 true이더라도 뒤의 수식을 확인함.
 		
+		System.out.println("----복합대입연산자----");
 /////////복합대입연산자 
 		int resultA = 0;
 		resultA += 10;  //resultA = resultA + 10 >> 10

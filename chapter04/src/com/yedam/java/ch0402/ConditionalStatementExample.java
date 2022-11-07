@@ -78,12 +78,26 @@ public class ConditionalStatementExample {
 
 		// 주사위 두개를 굴림. 합이 3이 되는 경우가 나올 때까지 굴리는 경우.
 		// 횟수가 정해져있지 않기때문에 for문은 쓰기 힘들고 while문을 써야함.
-//		int val1 = (int) (Math.random() * 6) + 1;
-//		int val2 = (int) (Math.random() * 6) + 1;
-//		System.out.println(val1);
-//		while (val1 + val2 == 3) {
-//			System.out.println("3입니다");
-//		}   >>>한번 해보기,,
+//		/방법1)
+		//int num1 =0;
+//		int num2=0;
+//		
+//		while(num1 + num2 !=3) {
+//			num1 = (int) (Math.random() * 6) + 1;
+//			num2 = (int) (Math.random() * 6) + 1;
+//			System.out.printf("%d,%d의 합은 3입니다.\n",num1,num2);
+		
+		//방법2)
+//		while (true) {
+//			int num1 = (int)(Math.random()*6)+1;
+//			int num2 = (int)(Math.random()*6)+1;
+//			System.out.printf("%d,%d\n",num1,num2);
+//			if(num1 + num2 == 3) {
+//				System.out.println("합이 3입니다.");
+//				break;
+//			}
+//		}
+		
 
 		int index = 1;
 		while (index != 1) {

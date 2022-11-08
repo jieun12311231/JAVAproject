@@ -13,10 +13,11 @@ public class ReferenceTypeExample {
 
 	public static void main(String[] args) {
 
-		// 클래스 테스트
+///////// 클래스 테스트
 		// 배열선언 배열을 이루는 타입 지정
 		// 보통은 이 방법을 많이 사용함. 배열이 가질수 없는 값은 없음.배열의 배열도 값으로 가질 수 있음
 		int[] intAry = null; // ☆★☆★
+		
 //		int intArt2[];
 //		System.out.println("intAer[0] : "+intAry[0]); //변수 쓰고 []안에 접근하고자 하는 인덱스의 값을 적으면 됨.
 		// 배열을 선언을 하게되면 실제로는 힙영역에 객체가 생성>> 내부에 공간이 생김 >> 번지수가 들어감.

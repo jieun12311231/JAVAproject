@@ -16,7 +16,7 @@ public class BankPrint {
 			System.out.println("------------------------------------------");
 			System.out.print("선택> ");
 
-			// 1,2,3,4라는 숫자받아야함. //String이라는 객체 형채로 오기때문에 int타입으로 변환시켜줘야함.
+			// 1,2,3,4라는 숫자받아야함. //String이라는 객체 형태로 오기때문에 int타입으로 변환시켜줘야함.
 			// nextLine으로 가지고오면 힙영역에 주소가 생기고 주소를 가지고만 있음.
 			// parseInt은 string형태만 가능함. 다른 타입은 캐스팅()사용.
 			// string타입을 다른 타입으로 변환하고 싶으면 parse를 사용해야함.
@@ -26,7 +26,7 @@ public class BankPrint {
 
 			if (selecNo == 1) {
 				// 메뉴 : 예금 >>잔액이 상승
-				System.out.println("예금액> ");
+				System.out.println("예금액> ");  //문자열 바로 옆에 글자가 오도록 하기 위해서 print만 쓰면 됨.
 				int money = Integer.parseInt(scanner.nextLine());
 				balance += money;
 			} else if (selecNo == 2) {

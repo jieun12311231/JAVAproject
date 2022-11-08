@@ -94,7 +94,11 @@ public class ConditionalStatementSubject {
 		int num2 = 0;
 		int turn = 0;
 		
-		while (num1 + num2 != 5) {
+		while (num1 + num2 != 5) { 
+			// 합이 5가 되는 경우를 출력받기 위해서는 합이 5가 아닌 경우를 조건식으로 넣고,
+			// 합이 5가 아닌경우가 계속 반복문 안을 돌다가 합이 5가되는 경우가 발생하면 반복문을 빠져나와서
+			// 합이 5가 되는 경우를 출력 
+			
 			num1 = (int) (Math.random() * 6) + 1;
 			num2 = (int) (Math.random() * 6) + 1;
 			turn++;

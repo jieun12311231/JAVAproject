@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BankPrint {
 
 	public static void main(String[] args) {
-		// p161 7번
+///////// p161 7번
 		boolean run = true; // 실행 종료 여부
 		int balance = 0;
 		Scanner scanner = new Scanner(System.in);

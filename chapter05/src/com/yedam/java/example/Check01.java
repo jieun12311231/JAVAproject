@@ -3,7 +3,7 @@ package com.yedam.java.example;
 public class Check01 {
 
 	public static void main(String[] args) {
-		// 교재 202쪽
+////////// 교재 202쪽
 		// 문제 1) 주어진 배열의 총 합과 평균을 구하세요.
 		int[] array = { 10, 53, 26, 85, 75 };
 
@@ -69,16 +69,15 @@ public class Check01 {
 		for (int i = 0; i < array.length; i++) {
 			// 최대값 >>최대, 최소 각각 if문을 줘야함.
 			if (max == array[i]) { // array이가 더 크면 max가 최대값이 아니기떄문에 max를 덮었씀
-				maxInt =i;
+				maxInt = i;
 			}
 			// 최소값
 			if (min == array[i]) {
-				maxInt =i;
+				maxInt = i;
 			}
 		}
 		System.out.println(maxInt);
-		
-		
+
 	}
 
 }

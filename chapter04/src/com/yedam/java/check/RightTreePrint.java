@@ -4,6 +4,7 @@ public class RightTreePrint {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+/////////교재161
 		//최대한의 해석을 통해 숫자를 끄집어내고 규칙을 찾아야함.
 		//    * >> 1번째 줄> 공백 3개,별 1개 =>총문자4개
 		//   ** >> 2번쨰 줄> 공백 2개 별 2개 =>총문자4개

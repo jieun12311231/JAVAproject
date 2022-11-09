@@ -10,6 +10,10 @@ public class Exam01 {
 		int min = x - (int) y;
 		int aa = x * (int) y;
 		int div = x / (int) y;
+		System.out.println(sum);
+		System.out.println(min);
+		System.out.println(aa);
+		System.out.println(div);
 		
 	}
 

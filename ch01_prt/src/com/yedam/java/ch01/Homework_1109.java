@@ -22,7 +22,7 @@ public class Homework_1109 {
 		System.out.println("====2번 문제====");
 		//문제2. 주어진 배열의 인덱스가 3인 곳은 출력하지 말고, 나머지만 출력해보자.
 				for(int i = 0;i<arr1.length;i++) {
-					if(arr1[i]!=3) {
+					if(i !=3) {
 						System.out.println(i);
 					}
 				}

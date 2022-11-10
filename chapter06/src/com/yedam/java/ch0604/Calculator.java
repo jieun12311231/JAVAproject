@@ -42,9 +42,11 @@ public class Calculator {  //계산기 만들기
 	}
 	
 	/////사각형의 넓이 구하기 교재 265 메서드 오버로딩
+	//정사각형은 4면이 동일.
 	double areaRectangle(double width) {
 		return width * width; //간단한 연산은 return 구문에 바로 넣어줘도됨/
 	}
+	//직사각형 가로 , 세로의 길이가 필요함.
 	double areaRectangle(double width,double height) {  //매소드 이름은 같고 변수의 이름은 달라야함
 		return width * height;
 	}

@@ -19,6 +19,18 @@ public class Application {
 //	공연평점 : ☆☆☆☆☆
 //- 조건
 //	관객수, 총점과 평점은 입력되는 값에 따라 변동될 수 있습니다.
+
+		Movie movie = new Movie("추격자", 7, 5, null);
+		movie.getInformation();
+
+		Culture culture = (Culture) movie;
+//		culture.setTotalScore(12);
+		culture.total =12;
+		System.out.println("영화총점 :" + culture.total);
+		System.out.println("======================");
+		Performance performance = new Performance("지킬앤하이드", 9, 10);
+		performance.getInformation();
+
 	}
 
 }

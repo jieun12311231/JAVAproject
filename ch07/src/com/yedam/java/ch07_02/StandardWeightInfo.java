@@ -22,14 +22,16 @@ public class StandardWeightInfo extends Human{
 	
 	
 	//메소드
-	
+//(1) public void getInformation() : 이름, 키, 몸무게와 표준체중을 출력하는 기능
+
 	@Override
 	public void getInformation() {
 		super.getInformation();
-		System.out.println(getStandardWeight());
+		System.out.printf(", 표준체중은 %.1fkg입니다.\n",getStandardWeight());
 	}
 
 	
+//(2) public double getStandardWeight() : 표준체중을 구하는 기능
 	
 	public double getStandardWeight() {
 		double avgewight = ((height -100)*0.9);

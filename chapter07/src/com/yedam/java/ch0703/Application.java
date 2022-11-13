@@ -47,7 +47,8 @@ public class Application {
 		
 	}
 
-	public static void animalSound(Animal animal) {//Animal은 강아지와 고양이 클래스의 부모 클래스 
+	public static void animalSound(Animal animal) {
+		//Animal은 강아지와 고양이 클래스의 부모 클래스 
 		animal.sound();  //이 메소드를 부르게 되면 자동타입변환이 일어나면서 상황이 맞는 소리 출력
 	}
 	

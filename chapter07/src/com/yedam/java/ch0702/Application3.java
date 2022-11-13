@@ -29,6 +29,10 @@ public class Application3 {
 		// parentA은 타입은Parent이지만 Child를 참조해서 만듬.
 		// instanceof을 쓰면 무엇을 참조했는지 물어보기떄문에 Child되어서 참이 됨.
 
+		
+		
+		
+		
 		Driver driver = new Driver();
 
 		// 버스와 택시는 부모 클래스인vehicle을 섬기는것
@@ -59,8 +63,11 @@ public class Application3 {
 		Child child = (Child) parent;
 		child.field2 = "parent";
 		child.method3();
-
+		child.method1();
 		child.field = "parent";
+		
+		System.out.println(child.field2);
+		System.out.println(child.field);
 
 	}
 

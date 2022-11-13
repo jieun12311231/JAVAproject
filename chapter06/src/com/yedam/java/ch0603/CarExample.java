@@ -11,8 +11,8 @@ public class CarExample {
 		Car car2 = new Car("팰리세이드");
 		System.out.println("car2.copany : "+car2.company);
 		System.out.println("car2.model : "+car2.model);
-//		System.out.println("car2.color : "+car2.color);
-//		System.out.println("car2.maxSpeed : "+car2.maxSpeed);
+		System.out.println("car2.color : "+car2.color);
+		System.out.println("car2.maxSpeed : "+car2.maxSpeed);
 
 		System.out.println();
 		
@@ -20,7 +20,7 @@ public class CarExample {
 		System.out.println("car3.copany : "+car3.company);
 		System.out.println("car3.model : "+car3.model);
 		System.out.println("car3.color : "+car3.color);
-//		System.out.println("car3.maxSpeed : "+car3.maxSpeed);
+		System.out.println("car3.maxSpeed : "+car3.maxSpeed);
 		System.out.println();
 		
 		Car car4 =  new Car("베뉴","네이비",200);

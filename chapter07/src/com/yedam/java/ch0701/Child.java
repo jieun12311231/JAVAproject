@@ -12,7 +12,7 @@ public class Child extends Parent { // 부모의 핑드를 가지고 와서 쓸�
 	// 메소드
 
 	
-	////오버라이드////
+	////오버라이딩////>부모의 내용이 마음에 안들ㄹ어서 바꿈
 	@Override // @은 컴파일 하겠다는 의미 /부모 클래스으 내용 재정비 하겠다
 	// 동일한 시그니처 public void method1() 는 똑같이 해야함
 	public void method1() {  //재정의

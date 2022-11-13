@@ -2,6 +2,7 @@ package com.yedam.java.ch0703;
 
 //실체클래스
 public class SmartPhone extends Phone {
+	
 	public SmartPhone(String owner) {
 		super(owner);
 

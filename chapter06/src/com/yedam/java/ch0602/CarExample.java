@@ -5,7 +5,7 @@ public class CarExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //1.인스턴스 만들기
-		Car myCar = new Car();//new연산자를 호출해서 인스턴스 만들기.
+	   	Car myCar = new Car();//new연산자를 호출해서 인스턴스 만들기.
 		//클래스를 기반으로 인스턴스 만듬
 		
 //2.내부필드를 불러와서 사용		
@@ -24,6 +24,11 @@ public class CarExample {
 		
 		Car newCar = new Car();  // new Car() >>기본 생성자 // 괄호안에 들어가는것도 없고 따로 적어줘여하는것도 없음.
 		System.out.println("새로운 차의 현재속도는 :" + newCar.speed);  //my카와 new카는 현재 속도를 공유하지않음.
+		
+		
+		
+		
+		
 		
 		String str = new String("Con");  //>> 생성자 선언
 		

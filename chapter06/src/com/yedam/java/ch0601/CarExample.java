@@ -10,7 +10,7 @@ public class CarExample {
 		
 		System.out.println();
 		
-		Car car2 = new Car();
+		Car car2 = new Car("blue");
 		System.out.println("최대스피드 : "+car2.maxSpeed);
 		System.out.println("색상 : "+car2.color);
 		car2.run();

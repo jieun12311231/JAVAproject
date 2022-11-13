@@ -90,7 +90,7 @@ public class BankMain {
 		// 2)getter setter로 데이터 입력및 출력
 		mem.setId("yedam");
 		mem.setTel("010-1234-1234");
-		mem.setAge(22);
+		mem.setAge(-1);
 
 		System.out.println("id : " + mem.getId());
 		System.out.println("tel : " + mem.getTel());

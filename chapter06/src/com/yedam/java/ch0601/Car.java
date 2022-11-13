@@ -8,6 +8,13 @@ public class Car {  //main이 없음//main이 없으면 프로젝트 실행이 �
 	
 	//생성자 ((여기서는 원래는 생략해도 상관없음))
 	public Car() { //생성자는 본인의 이름을 가질수 없어서 클래스의 이름을 가져와서 씀/생성자는 클래스와 이름이 똑같음
+		
+		System.out.println("자동차가 출하되었습니다.");
+	}
+	
+	
+	public Car(String color) { //생성자는 본인의 이름을 가질수 없어서 클래스의 이름을 가져와서 씀/생성자는 클래스와 이름이 똑같음
+		this.color = color;
 		System.out.println("자동차가 출하되었습니다.");
 	}
 	
@@ -17,3 +24,5 @@ public class Car {  //main이 없음//main이 없으면 프로젝트 실행이 �
 		System.out.println("자동차가 동작 중입니다.");
 	}
 }
+
+

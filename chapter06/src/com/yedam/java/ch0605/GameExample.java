@@ -17,10 +17,16 @@ public class GameExample {
 		//3)세번째 생성자 
 		Game nser3 = new Game("예담이3","5678");
 		
+		
+		
+		
 		user1.getInfo();
 		user2.getInfo();
 		nser3.getInfo();
 				
+		
+		
+		
 		//static(정적, 고정)필드 사용
 		System.out.println("===static필드 호출===");
 		System.out.println(Game.gameName);

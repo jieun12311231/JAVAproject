@@ -18,17 +18,17 @@ public class SystemExample {
 //			}
 //
 //		}
-		// 현재시간 읽기
-		long time1 = System.nanoTime(); // 시간을 체크하는 시점 ->0초
-
-		int sum = 0;
-		for (int i = 1; i <= 100000; i++) {// 100000 계산하면서 시간 벌기
-			sum += 1;
-		}
-
-		long time2 = System.nanoTime(); // 시간 읽기 그만하기 ->10초
-		System.out.println("sum : " + sum);
-		System.out.println("계산 시간 :" + (time2 - time1) + " 나노초가 소요됨.");
+//		// 현재시간 읽기
+//		long time1 = System.nanoTime(); // 시간을 체크하는 시점 ->0초
+//
+//		int sum = 0;
+//		for (int i = 1; i <= 100000; i++) {// 100000 계산하면서 시간 벌기
+//			sum += 1;
+//		}
+//
+//		long time2 = System.nanoTime(); // 시간 읽기 그만하기 ->10초
+//		System.out.println("sum : " + sum);
+//		System.out.println("계산 시간 :" + (time2 - time1) + " 나노초가 소요됨.");
 //time2 - time1 얼마나 소요되는지 알수있는 수식
 		
 		//★★//랜덤값뽑을때 종종 사용됨.

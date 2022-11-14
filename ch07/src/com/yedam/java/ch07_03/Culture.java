@@ -37,16 +37,39 @@ public abstract class Culture {
 	// 메소드 호출로 점수 받아오기
 	public void setTotalScore(int score) {
 //	score = Integer.parseInt(sc.nextLine());
-		total += score;
-		audience++;
+		total = total+ score;
+		audience = audience+1;
 	}
 
 //(2) public String getGrade() : 평점을 구하는 기능   /grade  
 	// 총점 합해서 평균내고 별 출력되게 하기
-//	public String getGrade() {
-//		
+	public String getGrade() {
+		int grade =0;
+		grade = total/audience;
+		String star = null;
+		
+		switch(grade) {
+		case 1:
+			star = "☆";
+			break;
+		case 2:
+			star = "☆☆";
+			break;
+		case 3:
+			star = "☆☆☆";
+			break;
+		case 4:
+			star = "☆☆☆☆";
+			break;
+		case 5:
+			star = "☆☆☆☆☆";
+			break;
+			
+		}return star;
+				
+				
 	
-//	}
+	}
 
 	// (3) public abstract void getInformation() : 정보를 출력하는 추상메소드
 	public abstract void getInformation();

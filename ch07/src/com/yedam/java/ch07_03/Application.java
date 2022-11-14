@@ -21,8 +21,10 @@ public class Application {
 //	관객수, 총점과 평점은 입력되는 값에 따라 변동될 수 있습니다.
 
 		Movie movie = new Movie("추격자", 7, 5, null);
+		movie.setTotalScore(2);
+		movie.setTotalScore(4);
+		movie.setTotalScore(6);
 		movie.getInformation();
-		movie.setTotalScore(12);
 		
 //		Culture culture = (Culture) movie;
 ////		culture.setTotalScore(12);
@@ -33,8 +35,10 @@ public class Application {
 		System.out.println("======================");
 
 		Performance performance = new Performance("지킬앤하이드", 9, 10);
+		performance.setTotalScore(3);
+		performance.setTotalScore(5);
+		performance.setTotalScore(6);
 		performance.getInformation();
-		performance.setTotalScore(46);
 //		culture = (Culture) performance;
 //		culture.total = 46;
 //		System.out.println("영화총점 :" + culture.total);

@@ -22,14 +22,22 @@ public class Application {
 
 		Movie movie = new Movie("추격자", 7, 5, null);
 		movie.getInformation();
+		movie.setTotalScore(12);
+		
+//		Culture culture = (Culture) movie;
+////		culture.setTotalScore(12);
+//		culture.total = 12;
+//		System.out.println("영화총점 :" + culture.total);
+		
 
-		Culture culture = (Culture) movie;
-//		culture.setTotalScore(12);
-		culture.total =12;
-		System.out.println("영화총점 :" + culture.total);
 		System.out.println("======================");
+
 		Performance performance = new Performance("지킬앤하이드", 9, 10);
 		performance.getInformation();
+		performance.setTotalScore(46);
+//		culture = (Culture) performance;
+//		culture.total = 46;
+//		System.out.println("영화총점 :" + culture.total);
 
 	}
 
